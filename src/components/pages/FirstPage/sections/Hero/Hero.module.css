@@ -1,0 +1,95 @@
+.hero {
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 60px;
+}
+
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1156px;
+    padding: 50px 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hero__textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 605px;
+}
+
+.hero__subtitle {
+    width: 300px;
+}
+
+.hero__iconsbox {
+    position: relative;
+    width: 470px;
+    height: 540px;
+}
+
+.hero__icon {
+    position: absolute;
+}
+
+.hero__icon.hero__icon_1 {
+    top: -10px;
+    left: 125px;
+}
+
+.hero__icon.hero__icon_2 {
+    top: 200px;
+    left: 50px;
+}
+
+.hero__icon.hero__icon_3 {
+    bottom: 0;
+    left: 210px;
+}
+
+.hero__bgcircle {
+    position: absolute;
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.hero__bgcircle.hero__bgcircle_1 {
+    background-image: radial-gradient(closest-side, rgba(227, 139, 223, 0.5), transparent);
+    width: 591px;
+    height: 591px;
+    top: -50px;
+    left: 62px;
+}
+
+.hero__bgcircle.hero__bgcircle_2 {
+    background-image: radial-gradient(closest-side, rgba(139, 221, 227, 0.7), transparent);
+    width: 677px;
+    height: 677px;
+    top: -39px;
+    left: 361px;
+}
+
+.hero__bgcircle.hero__bgcircle_3 {
+    background-image: radial-gradient(closest-side, rgba(139, 158, 227, 0.4), transparent);
+    width: 533px;
+    height: 533px;
+    top: -11px;
+    right: -106px;
+}
+
+/* ADAPTIVES */
+
+/* 1156-1000 */
+@media (max-width: 1156px) {
+    .hero_wrapper {
+        width: 100vw;
+    }
+}

@@ -1,0 +1,12 @@
+.mainSec {
+    margin: 60px auto 0 auto;
+    width: 1156px;
+    position: relative;
+}
+
+/* 1156-1000 */
+@media (max-width: 1156px) {
+    .mainSec {
+        width: 100%;
+    }
+}

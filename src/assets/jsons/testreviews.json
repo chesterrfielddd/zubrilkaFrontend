@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "name": "Дмитрий Коваль",
+      "description": "Круто все работает вау хочу пиво и алину",
+      "image": "src/assets/images/about-pic1.jpg"
+    },
+    {
+      "name": "Кирилл Бледный",
+      "description": "вау",
+      "image": "src/assets/images/about-pic2.jpg"
+    },
+    {
+      "name": "Юрий Каплан",
+      "description": "*молчит 8 лет*",
+      "image": "src/assets/images/about-pic1.jpg"
+    },
+    {
+      "name": "Алина Олешева",
+      "description": "пробуем 30 000 видов колы",
+      "image": "src/assets/images/about-pic1.jpg"
+    }
+  ]
+}

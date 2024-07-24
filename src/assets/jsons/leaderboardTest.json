@@ -1,0 +1,12 @@
+{
+    "leader_board": [
+        {
+            "name": "User1",
+            "time": 12.01
+        },
+        {
+            "name": "User2",
+            "time": 13.01
+        }
+    ]
+}

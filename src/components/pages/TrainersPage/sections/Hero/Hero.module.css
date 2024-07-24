@@ -1,0 +1,24 @@
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.input {
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.input::placeholder {
+    color: #000;
+}

@@ -1,0 +1,63 @@
+{
+    "challenge": {
+        "name": "Тестовое испытание",
+        "description": "Первое тестовое испытание",
+        "photo": "media",
+        "slug": "/test_passing/273408469-testovoe-ispyitanie",
+        "author": "dr_psih",
+        "create_date": "2024-02-20T13:06:17.658Z"
+    },
+    "questions": [
+        {
+            "question_type": "Radio",
+            "question_text": "Вам нужно выбрать только один вариант ответа",
+            "question_audio": "",
+            "question_photo": "",
+            "question_author": "dr_psih",
+            "question_create_date": "2024-02-24T16:14:26.646Z",
+            "answer_options": [
+                "Первый вариант 1 radio",
+                "Vtoroy variant",
+                "Третий вариант"
+            ]
+        },
+        {
+            "question_type": "CheckBox",
+            "question_text": "Вам предстоит выбрать правильный вариант ответа.",
+            "question_audio": "",
+            "question_photo": "",
+            "question_author": "dr_psih",
+            "question_create_date": "2024-02-24T15:28:39.121Z",
+            "answer_options": [
+                "Вариант номер 1",
+                "Вариант номер 2",
+                "Вариант номер 3",
+                "Вариант 4"
+            ]
+        },
+        {
+            "question_type": "Ответ текстом",
+            "question_text": "3 - это третий вопрос в тестовом испытании. Просто попробуй ответить на него",
+            "question_audio": "",
+            "question_photo": "",
+            "question_author": "dr_psih",
+            "question_create_date": "2024-02-24T15:17:44.144Z"
+        },
+        {
+            "question_type": "Ответ текстом",
+            "question_text": "Это второй вопрос в тестовом испытании",
+            "question_audio": "",
+            "question_photo": "",
+            "question_author": "dr_psih",
+            "question_create_date": "2024-02-24T15:17:14.199Z"
+        },
+        {
+            "question_type": "Ответ текстом",
+            "question_text": "Это первый вопрос в Тестовом Испытании",
+            "question_audio": "",
+            "question_photo": "",
+            "question_author": "dr_psih",
+            "question_create_date": "2024-02-24T15:16:54.742Z"
+        }
+    ]
+}

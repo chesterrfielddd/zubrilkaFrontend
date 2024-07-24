@@ -1,0 +1,31 @@
+{
+  "slug": "",
+  "title": "",
+  "question_count": 3,
+  "questions": [
+    {
+      "question": "enter 1234",
+      "body": {
+        "answer_type": "input"
+      }
+    },
+    {
+      "question": "choose 1 and 2",
+      "body": {
+        "answer_type": "checkbox",
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3"
+      }
+    },
+    {
+      "question": "choose 2",
+      "body": {
+        "answer_type": "radio",
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3"
+      }
+    }
+  ]
+}

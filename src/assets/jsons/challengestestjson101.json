@@ -1,0 +1,50 @@
+{
+  "name": "Название тренажера",
+  "description": "Описание тренажера lorem ipsum dolor sit amel lorem ipsum dolor sit amel ",
+  "is_active": true,
+  "author": "Гнойная Язва",
+  "date": "10.9.2004",
+  "slug": "101",
+  "on_main_page": false,
+  "training_subject": "Английский язык",
+  "training_theory": "тут будет юрл на теоритический блок",
+  "challenges": [
+    {
+      "name": "Название Испытания",
+      "id": "1",
+      "description": "Описание Испытания lorem ipsum dolor sit amel lorem ipsum dolor sit amel ",
+      "image": "https://images.unsplash.com/photo-1715645943748-a7cf8a81f1ef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "question_count": "10"
+    },
+    {
+      "name": "Название Испытания",
+      "id": "2",
+      "description": "Описание Испытания lorem ipsum dolor sit amel lorem ipsum dolor sit amel ",
+      "image": "https://images.unsplash.com/photo-1715645943748-a7cf8a81f1ef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "question_count": "10"
+    },
+    {
+      "name": "Название Испытания",
+      "id": "3",
+      "description": "Описание Испытания lorem ipsum dolor sit amel lorem ipsum dolor sit amel ",
+      "image": "https://images.unsplash.com/photo-1715645943748-a7cf8a81f1ef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "question_count": "10"
+    },
+    {
+      "name": "Название Испытания",
+      "id": "4",
+      "description": "Описание Испытания lorem ipsum dolor sit amel lorem ipsum dolor sit amel ",
+      "image": "https://images.unsplash.com/photo-1715645943748-a7cf8a81f1ef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "question_count": "10"
+    },
+    {
+      "name": "Название Испытания",
+      "id": "5",
+      "description": "Описание Испытания lorem ipsum dolor sit amel lorem ipsum dolor sit amel ",
+      "image": "https://images.unsplash.com/photo-1715645943748-a7cf8a81f1ef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "question_count": "10"
+    }
+  ],
+  "questions": [],
+  "answers": []
+}

@@ -1,0 +1,40 @@
+{
+  "trainers": [
+    {
+      "name": "Словарный диктант 3 класс",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Русский язык"
+    },
+    {
+      "name": "Словарный диктант 3 класс",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic2.jpg",
+      "subject": "Русский язык"
+    },
+    {
+      "name": "Some words test",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Английский язык"
+    },
+    {
+      "name": "Словарный диктант 3 класс",
+      "description": "xmpl desc",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Русский язык"
+    },
+    {
+      "name": "Словарный дитант 3 класс",
+      "description": "xmpl desc",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Русский язык"
+    },
+    {
+      "name": "Словарный диктант 44 класс",
+      "description": "xmpl desc",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Русский язык"
+    }
+  ]
+}

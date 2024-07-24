@@ -1,0 +1,53 @@
+{
+  "trainers": [
+    {
+      "id": "101",
+      "name": "Словарный диктант 3 класс",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "https://images.unsplash.com/photo-1715966966827-25a227141ee9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "subject": "Русский язык"
+    },
+    {
+      "id": "102",
+      "name": "Словарный диктант 3 класс",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic2.jpg",
+      "subject": "Русский язык"
+    },
+    {
+      "id": "103",
+      "name": "Some words test",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Английский язык"
+    },
+    {
+      "id": "105",
+      "name": "Some words test",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Английский язык"
+    },
+    {
+      "id": "106",
+      "name": "Some words test",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Английский язык"
+    },
+    {
+      "id": "107",
+      "name": "Some words test",
+      "description": "Словарный диктант для учащихся 3 класса на знание правописания н и нн",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Английский язык"
+    },
+    {
+      "id": "104",
+      "name": "Словарный диктант 3 класс",
+      "description": "xmpl desc",
+      "image": "src/assets/images/about-pic1.jpg",
+      "subject": "Русский язык"
+    }
+  ]
+}
