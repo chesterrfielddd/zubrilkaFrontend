@@ -15,7 +15,7 @@ export default function Hero({
       <div className={classes.hero_wrapper}>
         <div className={classes.hero__textarea}>
           <div className={classes.hero__textbox}>
-            <h1 className={classes.hero__title}>
+            <h1>
               Zubrilka - шаг вперед для всероссийского школьного образования!
             </h1>
             <p className={classes.hero__subtitle}>

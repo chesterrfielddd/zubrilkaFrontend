@@ -64,14 +64,14 @@
 
 .leftButton {
     left: 0;
-    background-image: url('../../../assets/icons/modules-left-arrow.svg');
+    background-image: url('../../../../../assets/icons/modules-left-arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .rightButton {
     right: 0;
-    background-image: url('../../../assets/icons/modules-right-arrow.svg');
+    background-image: url('../../../../../assets/icons/modules-right-arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
 }

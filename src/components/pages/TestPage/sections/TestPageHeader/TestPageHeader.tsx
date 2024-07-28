@@ -11,7 +11,7 @@ export default function TestPageHeader({ testData, isTimerRunning }) {
       timeInc();
     }
     return () => clearInterval(timeHandler.current);
-  }, [isTimerRunning]); // Добавляем isTimerRunning в зависимость эффекта, чтобы он переинициализировался при изменении
+  }, [isTimerRunning]);
 
   let timeHandler = useRef();
 

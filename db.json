@@ -1,0 +1,41 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "trainers": [
+    {
+      "id": 1,
+      "title": "first trainer",
+      "category": "English",
+      "text": "lorem ipsum dolor sit amel",
+      "image": "https://plus.unsplash.com/premium_photo-1693227521269-d90b70e3ee06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "title": "first trainer",
+      "category": "English",
+      "text": "lorem ipsum dolor sit amel",
+      "image": "https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "title": "first trainer",
+      "category": "English",
+      "text": "lorem ipsum dolor sit amel",
+      "image": "https://plus.unsplash.com/premium_photo-1693227521269-d90b70e3ee06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "title": "first trainer",
+      "category": "English",
+      "text": "lorem ipsum dolor sit amel",
+      "image": "https://plus.unsplash.com/premium_photo-1693227521269-d90b70e3ee06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "title": "first trainer",
+      "category": "English",
+      "text": "lorem ipsum dolor sit amel",
+      "image": "https://plus.unsplash.com/premium_photo-1693227521269-d90b70e3ee06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "profile": { "name": "typicode" }
+}

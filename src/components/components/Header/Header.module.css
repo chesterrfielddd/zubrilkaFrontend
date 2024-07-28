@@ -1,11 +1,85 @@
-.header {
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    background-color: #fff;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+.header__container {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+}
+
+.header__wrapper {
+  width: 1156px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header__logobox {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logoimg {
+  width: 60px;
+  height: 60px;
+}
+
+.header__logotext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+
+}
+
+.header__nav {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+}
+
+.header__navitem {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__enterbtn {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header__enterbtn::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 100%;
+  z-index: 1;
+  background-color: #8BDDE3;
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+}
+
+/* 1156-1000 */
+@media (max-width: 1156px) {
+  .header__wrapper {
+    width: 100%;
+  }
+}
+
+.lk_link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }

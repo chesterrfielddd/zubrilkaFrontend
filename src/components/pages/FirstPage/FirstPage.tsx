@@ -9,52 +9,51 @@ import ModulesSection from "./sections/ModuleSection/ModulesSection";
 import AboutSection from "./sections/AboutSection/AboutSection";
 import ReviewsSection from "./sections/ReviewsSection/ReviewsSection";
 import FaqSection from "./sections/FaqSection/FaqSection";
-import CookieModalContent from "./sections/CookieModalContent/CookieModalContent";
-import FirstPageHeader from "./sections/FirstPageHeader/FirstPageHeader";
-import { useState, useRef, useEffect } from "react";
-import axios from "axios";
+import { useState, useRef } from "react";
 
-export default function FirstPage() {
+const FirstPage = () => {
   const [isModalActive, setIsModalActive] = useState(false);
-  const [isCookieModalActive, setIsCookieModalActive] = useState(null);
+  const [isCookieModalActive, setIsCookieModalActive] = useState(true);
   const [activeModalSlide, setActiveModalSlide] = useState(0);
-  const [userInfo, setUserInfo] = useState(null);
   const swiperRef = useRef(null);
-
+  
   function handleCookieModalClick() {
     setIsCookieModalActive(false);
   }
-
-  async function fetchUserData() {
-    try {
-      const response = await axios.get(
-        `https://www.zubrilka.space/api/users/me/`,
-        {
-          withCredentials: true,
-        }
-      );
-      return response.data;
-    } catch (error) {
-      console.error("Error fetching data: ", error);
-    }
+  
+  function handleHeaderLoginBtnClick() {
+    setIsModalActive(true);
+    goToSlide(1);
   }
+  
+  // const [userInfo, setUserInfo] = useState(null);
+  // async function fetchUserData() {
+  //   try {
+  //     const response = await axios.get(
+  //       `https://www.zubrilka.space/api/users/me/`,
+  //       {
+  //         withCredentials: true,
+  //       }
+  //     );
+  //     return response.data;
+  //   } catch (error) {
+  //     console.error("Error fetching data: ", error);
+  //   }
+  // }
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetchUserData();
-      if (response === undefined) {
-        setIsCookieModalActive(true);
-        setUserInfo(false);
-      } else {
-        setIsCookieModalActive(false);
-        setUserInfo(response);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const response = await fetchUserData();
+  //     if (response !== undefined) {
+  //       setIsCookieModalActive(false);
+  //       setUserInfo(response);
+  //     }
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
-  function goToSlide(slideIndex) {
+  function goToSlide(slideIndex: number) {
     swiperRef.current && swiperRef.current?.swiper.slideTo(slideIndex);
     setActiveModalSlide(slideIndex);
   }
@@ -68,22 +67,13 @@ export default function FirstPage() {
           goToSlide={goToSlide}
           swiperRef={swiperRef}
           setIsActive={setIsModalActive}
-          setUserInfo={setUserInfo}
+          // setUserInfo={setUserInfo}
         />
       </RegModal>
       {isCookieModalActive && (
-        <CookieModal>
-          <CookieModalContent onClick={handleCookieModalClick} />
-        </CookieModal>
+        <CookieModal variant="primary" onClick={handleCookieModalClick} />
       )}
-      <Header>
-        <FirstPageHeader
-          setIsRegModalACtive={setIsModalActive}
-          setActiveModalSlide={setActiveModalSlide}
-          goToSlide={goToSlide}
-          userInfo={userInfo}
-        />
-      </Header>
+      <Header variant="main" onClick={handleHeaderLoginBtnClick} userInfo={false} />
       <Hero
         setIsRegModalACtive={setIsModalActive}
         setActiveModalSlide={setActiveModalSlide}
@@ -98,4 +88,6 @@ export default function FirstPage() {
       <Footer />
     </>
   );
-}
+  }
+
+export default FirstPage;

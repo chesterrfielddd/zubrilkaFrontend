@@ -1,11 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import styles from "./RegModalContent.module.css";
-// import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import styled from "styled-components";
 import axios from "axios";
-// import config from "../../../../config";
 import { useState } from "react";
 import hiddenEyeIcon from "../../../assets/icons/hide-regular-24.png";
 import shownEyeIcon from "../../../assets/icons/show-alt-regular-24.png";
